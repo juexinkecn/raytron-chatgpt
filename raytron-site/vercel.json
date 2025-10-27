@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "package.json", "use": "@vercel/next" }
+  ],
+  "env": {
+    "SITE_DOMAIN": "@site_domain",
+    "ALT_DOMAIN": "@alt_domain",
+    "LANG": "@lang"
+  }
+}
